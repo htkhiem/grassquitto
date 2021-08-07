@@ -34,7 +34,11 @@ It aims to help make keeping a tabletop greenhouse a more hands-off experience b
 - Associated peripherals and power source.
 - An Android device, or install the emulator.
 
+## Installing
+Please go to the `Releases` section for the APK.
+
 ## Building
+If you prefer building from source:
 1. Get Android Studio.
 2. Install the Dart and Flutter SDKs.
 3. Install the Dart and Flutter plugins to Android Studio and make sure they can find your SDKs.
