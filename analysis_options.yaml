@@ -1,0 +1,18 @@
+include: package:lint/analysis_optioans.yaml
+
+linter:
+  rules:
+    # Use parameter order as in json response
+    always_put_required_named_parameters_first: false
+
+    # We still have utils classes
+    avoid_classes_with_only_static_members: false
+
+    # The new tabs vs. spaces. Choose wisely
+    prefer_single_quotes: true
+
+    # Blindly follow the Flutter code style, which prefers types everywhere
+    always_specify_types: true
+
+    # Back to the 80s
+    lines_longer_than_80_chars: true
